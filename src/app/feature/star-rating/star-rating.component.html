@@ -1,0 +1,7 @@
+<ngb-rating [(rate)]="rating" [max]="maxValue">
+  <ng-template let-fill="fill">
+    <span class="defaultHeart" [class.filled]="fill === 100">
+      <span class="paintedHeart" [style.width.%]="fill">♥</span>♥
+    </span>
+  </ng-template>
+</ngb-rating>

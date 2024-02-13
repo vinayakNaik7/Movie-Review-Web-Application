@@ -1,0 +1,18 @@
+.filled {
+  color: red;
+}
+
+.defaultHeart {
+  position: relative;
+  display: inline-block;
+  color: gray;
+  font-size: 30px;
+  margin-right: 3px;
+}
+
+.paintedHeart {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  color: red;
+}
